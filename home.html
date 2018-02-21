@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset = "UTF-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+				<meta name="description" content="">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet"> 
+				<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+				<link rel="stylesheet" href="css/normalize.css">
+				<link rel="stylesheet" href="./css/font-awesome.min.css">
+				<link rel="stylesheet" href="./css/animate.css">
+				<link rel="stylesheet" id="happenstance-elegantfont-css" href="./css/elegantfont.css?ver=4.7.1" type="text/css" media="all">
+				<link rel="shortcut icon" href="favicon.ico" type="image/png"/>
+				<link rel="stylesheet" href="css/estilos.css">
+				<title>Guillermo Boquizo Sánchez Portfolio</title>
+		</head>
+		<body>
+			<div class="web">
+				<header class="header"></header>
+			<div class="subheader">
+				<div>
+					<h1>PROGRAMANDO DESDE ÍTACA</h1>
+					<h2>Desarrollando con filosofía</h2>
+				</div>
+			</div>
+			<div class="nav">
+			<nav class="nav-icon">
+					<a href="./home.html">
+						<i id="nav-inicio" class="fa fa-fort-awesome fa-3x icon" title="Inicio" alt="Inicio"></i></a>
+					<a href="./about.html">
+						<i id="nav-about" class="fa fa-info-circle fa-3x icon" title="Acerca de" alt="Acerca de"></i></a>
+						<a href="./projects.html">
+						<i id="nav-projects" class="fa fa-tasks fa-3x icon" title="Proyectos" alt="Proyectos"></i></a>
+					<a href="./contacto.html">
+						<i id="nav-contact" class="fa fa-phone fa-3x icon" title="Contacto" alt="Contacto"></i></a>	
+					<a href="./about.html">
+						<i id="nav-forward" class="fa fa-arrow-right fa-3x icon" title="Adelante" alt="Adelante"></i></a>
+			</nav>
+			<div class="social-icon-header">
+					<a href="https://www.facebook.com/guillermo.boquizosanchez" target="_blank">
+						<i id="social-fb" class="fa fa-facebook-square fa-3x icon "></i></a>
+					<a href="https://twitter.com/chekke26" target="_blank">
+						<i id="social-tw" class="fa fa-twitter-square fa-3x icon"></i></a>
+					<a href="https://www.linkedin.com/in/guillermo-boquizo-s%C3%A1nchez-26152b2b/" target="_blank">
+						<i id="social-li" class="fa fa-linkedin-square fa-3x icon "></i></a>
+					<a href="https://github.com/gboquizo" target="_blank">
+						<i id="social-gh" class="fa fa-github-square fa-3x icon"></i></a>	
+					<a href="mailto:guillermoboquizosanchez@gmail.com?Subject=Hola%20de%20nuevo" target="_blank">
+						<i id="social-em" class="fa fa-envelope-square fa-3x icon"></i></a>
+			</div>
+		</div>
+		<main class="contenido">
+			<section class= 'principal animated zoomInUp'>
+				<article class= 'articulo'>
+					<div class="portada">
+						<div class="cabecera">
+							<h2 id="bienvenidos">BIENVENIDOS</h2>
+						</div>
+						<div class="contenedor">
+							<picture class="responsive-img">
+								<source media="(min-width: 1024px)" srcset="images/foto.jpg">
+								<source media="(min-width: 768px)" srcset="images/foto.jpg">
+								<img src="images/foto.jpg" alt="foto">
+							</picture>
+                			<i class="fa girar fa-5x fa-code"></i>
+                 				<div class="rotar">
+                 				<button class="button" type="submit" onclick="window.location.href='about.html'"><span>Entrar</span>
+                 				</button>
+                 			</div>
+						</div>
+				</article>
+				</section>
+				<button onclick = " topFunction()" id="arribainicio" title="Volver arriba">&#9650;</button>
+		</main>
+		<footer class="footer">
+			<div class="footer-copyright">
+			<p>Guillermo Boquizo Sánchez - Práctica 14 DIWEB 2º DAW IES Gran Capitán</p>
+			</div>
+			<div class="social-icon">
+				<a href="https://www.facebook.com/guillermo.boquizosanchez" target="_blank">
+					<i id="social-fb" class="fa fa-facebook-square fa-3x icon "></i></a>
+				<a href="https://twitter.com/chekke26" target="_blank">
+					<i id="social-tw" class="fa fa-twitter-square fa-3x icon"></i></a>
+				<a href="https://www.linkedin.com/in/guillermo-boquizo-s%C3%A1nchez-26152b2b/" target="_blank">
+					<i id="social-li" class="fa fa-linkedin-square fa-3x icon "></i></a>
+				<a href="https://github.com/gboquizo" target="_blank">
+					<i id="social-gh" class="fa fa-github-square fa-3x icon"></i></a>	
+				<a href="mailto:guillermoboquizosanchez@gmail.com?Subject=Hola%20de%20nuevo" target="_blank">
+					<i id="social-em" class="fa fa-envelope-square fa-3x icon"></i></a>
+			</div>
+		</footer>
+	</div>
+<script>
+	window.onscroll = function() {scrollFunction()};
+	function scrollFunction() {
+	if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 20) {
+	document.getElementById("arribainicio").style.display = "block";
+	} else {
+	document.getElementById("arribainicio").style.display = "none";
+	}
+	}
+	function topFunction() {
+	document.body.scrollTop = 0; // For Safari
+	document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</body>
+</html>
