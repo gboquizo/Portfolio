@@ -21,22 +21,20 @@
 			<div class="subheader">
 				<div>
 					<h1>PROGRAMANDO DESDE ÍTACA</h1>
-					<h2>About Me</h2>
+					<h2>Desarrollando con filosofía</h2>
 				</div>
 			</div>
 			<div class="nav">
 			<nav class="nav-icon">
-					<a href="./index.html">
+					<a href="./indezx.html">
 						<i id="nav-inicio" class="fa fa-fort-awesome fa-3x icon" title="Inicio" alt="Inicio"></i></a>
 					<a href="./about.html">
 						<i id="nav-about" class="fa fa-info-circle fa-3x icon" title="Acerca de" alt="Acerca de"></i></a>
 						<a href="./projects.html">
 						<i id="nav-projects" class="fa fa-tasks fa-3x icon" title="Proyectos" alt="Proyectos"></i></a>
 					<a href="./contacto.html">
-						<i id="nav-contact" class="fa fa-phone fa-3x icon" title="Contacto" alt="Contacto"></i></a>
-					<a href="./index.html">
-						<i id="nav-back" class="fa fa-arrow-left fa-3x icon" title="Atrás" alt="Atrás"></i></a>	
-					<a href="./projects.html">
+						<i id="nav-contact" class="fa fa-phone fa-3x icon" title="Contacto" alt="Contacto"></i></a>	
+					<a href="./about.html">
 						<i id="nav-forward" class="fa fa-arrow-right fa-3x icon" title="Adelante" alt="Adelante"></i></a>
 			</nav>
 			<div class="social-icon-header">
@@ -55,52 +53,22 @@
 		<main class="contenido">
 			<section class= 'principal animated zoomInUp'>
 				<article class= 'articulo'>
-					<div class="lista">
+					<div class="portada">
 						<div class="cabecera">
-							<h2 id="capacidades">WEB DEVELOPER</h2>
+							<h2 id="bienvenidos">BIENVENIDOS</h2>
 						</div>
 						<div class="contenedor">
 							<picture class="responsive-img">
-								<source media="(min-width: 1024px)" srcset="images/web-developer.jpg">
-							<source media="(min-width: 768px)" srcset="images/web-developer.jpg">
-								<img src="images/web-developer.jpg" alt="foto">
+								<source media="(min-width: 1024px)" srcset="images/foto.jpg">
+								<source media="(min-width: 768px)" srcset="images/foto.jpg">
+								<img src="images/foto.jpg" alt="foto">
 							</picture>
-							<div class="lista">
-									<p>Técnico Superior en Desarrollo de Aplicaciones Web (I.E.S Gran Capitán, Córdoba).</p>
-									<p>Poseo conocimientos en:</p>
-								<ul class="listado">
-									<li class="html5">Diseño web (HTML5, CSS3)</li>
-									<li class="java">JAVA nativo, Android</li>
-									<li class="xml">Otros lenguajes de marcado(XML, MarkDown)</li>
-									<li class="git">Control de versiones en Git</li>
-									<li class="css3">Preprocesamiento en SASS, Stylus, LESS</li>
-									<li class="mysql">SGBD-R (MySQL, MaríaDB, Oracle)</li>
-								</ul>
-							</div>
-						</div>	
-					</div>
-				</article>
-			</section>
-			<section class= 'principal animated zoomInUp'>
-				<article class= 'articulo'>
-					<div>
-						<div class="cabecera">
-							<h2 id="bienvenidos">LA FILOSOFÍA TRAS EL CÓDIGO</h2>
+                			<i class="fa girar fa-5x fa-code"></i>
+                 				<div class="rotar">
+                 				<button class="button" type="submit" onclick="window.location.href='about.html'"><span>Entrar</span>
+                 				</button>
+                 			</div>
 						</div>
-						<div class="contenedor">
-							
-								<picture class="responsive-img">
-									<source media="(min-width: 1024px)" srcset="images/foto.jpg">
-									<source media="(min-width: 768px)" srcset="images/foto.jpg">
-									<img src="images/foto.jpg" alt="foto">
-								</picture>
-								<p>Bienvenidos a mi página web, hola a todo/as, mi nombre es Guillermo Boquizo Sánchez, vengo de un pueblo de Córdoba, Pedro Abad, y soy un futuro Técnico en Desarrollo de Aplicaciones Web</p>
-								<p>Tengo 32 años, vengo de otra rama algo alejada, al menos en apariencia, como es la Filosofía, soy licenciado de esta materia por la UNED y dispongo del máster habilitante en formación del profesorado para poder ejercer.</p>
-								<p>Sin embargo, por diversas circunstancias, decidí que necesitaba ampliar mi formación con un ciclo relacionado con el mundo de la informática, otra de mis pasiones, y por recomendación opté por esta modalidad.
-								El año pasado fue particularmente intenso, descubrí muchas facetas relacionadas con los contenidos del ciclo que desconocía, y pude sentir por mí mismo que la curva de aprendizaje es elevada</p>
-								<p>A pesar de todo, y pese a todas las dificultades, persevero a la hora de profundizar en el aprendizaje, y espero que algún día pueda desenvolverme con profesionalidad.</p>
-						</div>	
-					</div>
 				</article>
 				</section>
 				<button onclick = " topFunction()" id="arribainicio" title="Volver arriba">&#9650;</button>
@@ -126,7 +94,7 @@
 <script>
 	window.onscroll = function() {scrollFunction()};
 	function scrollFunction() {
-	if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+	if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 20) {
 	document.getElementById("arribainicio").style.display = "block";
 	} else {
 	document.getElementById("arribainicio").style.display = "none";
