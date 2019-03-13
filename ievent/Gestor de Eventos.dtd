@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT eventos (evento+)>
+<!ELEMENT evento ( imagen,link,titulo ,fechaInicio,fechaFin,precios? , descripcion ,horario* , localizacion? )>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fechaInicio (#PCDATA)>
+<!ELEMENT fechaFin (#PCDATA)>
+<!ELEMENT precios (precio*)>
+<!ELEMENT precio (tarifa+)>
+<!ELEMENT tarifa (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT horario (#PCDATA)>
+<!ELEMENT localizacion (#PCDATA)>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gestorEventos.xsl"?>
+<eventos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GestordeEventos.xsd">
+    <evento>
+        <imagen>img/eventoBienal.jpg</imagen>
+         <link>http://bienaldefotografia.cordoba.es</link>
+        <titulo>XV Bienal de Fotografía</titulo>
+        <fechaInicio>23/03/2017</fechaInicio>
+        <fechaFin>21/05/2017</fechaFin>
+        <precios>
+            <precio>
+                <tarifa>Precio: Entrada libre</tarifa>
+            </precio>
+        </precios>
+        <descripcion>Toda la información en:Bienal de Fotografía de Córdoba - Web...
+        </descripcion>
+        <horario>10:30-14:30</horario>
+        <localizacion>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13928.178524071367!2d-4.784758521372578!3d37.88159654238578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x657e21a24f913367!2sTeatro+G%C3%B3ngora!5e0!3m2!1ses!2ses!4v1491039302091</localizacion>
+    </evento>
+    <evento>
+        <imagen>img/cordobaflamenca.jpg</imagen>
+        <link>http://www.cultura.cordoba.es/es/agenda/cordoba-flamenca-2</link>
+        <titulo>Córdoba Flamenca
+        </titulo>
+        <fechaInicio>20/04/2017</fechaInicio>
+        <fechaFin>20/04/2017</fechaFin>
+        <precios>
+            <precio>
+                <tarifa>Precio: Entrada libre</tarifa>
+            </precio>
+        </precios>
+        <descripcion>Asesor y director artístico: Faustino Núñez.Elenco: Lucía Leiva y José Prieto (cante), Manuel J. Martínez y David Navarro...</descripcion>
+        <horario>19:30</horario>
+        <localizacion>https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25192.864998566412!2d-4.795413!3d37.88115400000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDUyJzUyLjYiTiA0wrA0Nyc0My4zIlc!5e0!3m2!1ses!2sus!4v1491095523671</localizacion>
+    </evento>
+    <evento>
+        <imagen>img/trasteando.jpg</imagen>
+         <link>http://www.centroflamencofosforito.cordoba.es/evento/trasteando-encuentros-con-la-guitarra-flamenca-isaac-munoz/?instance_id=12782</link>
+        <titulo>Trasteando: Isaac Muñoz </titulo>
+        <fechaInicio>07/04/2017</fechaInicio>
+        <fechaFin>07/04/2017</fechaFin>
+        <precios>
+            <precio>
+                <tarifa>Precio: Entrada libre</tarifa>
+            </precio>
+        </precios>
+        <descripcion> Música - Flamenco - Trasteando
+
+            Trasteando es un ciclo de conciertos en los que la protagonista es la guitarra flamenca.
+
+            Más información sobre este evento en el sitio web del Centro Flamenco Fosforito.
+        </descripcion>
+        <horario>20:00</horario>
+        <localizacion>https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25192.916821126062!2d-4.7748322!3d37.88100250000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d20825fcb26f3%3A0x1b11c6d00fbe1b0b!2sPlaza+del+Potro!5e0!3m2!1ses!2sus!4v1491096062939</localizacion>
+    </evento>
+    <evento>
+        <imagen>img/matinales.jpg</imagen>
+         <link>http://www.centroflamencofosforito.cordoba.es/evento/matinales-flamencas-anabel-castillo/?instance_id=12727</link>
+        <titulo>Matinales Flamencas: Anabel Castillo</titulo>
+        <fechaInicio>09/04/2017</fechaInicio>
+        <fechaFin>09/04/2017</fechaFin>
+        <precios>
+            <precio>
+                <tarifa>Precio: Entrada libre</tarifa>
+            </precio>
+        </precios>
+        <descripcion>Un ciclo de actuaciones de flamenco en directo protagonizado por jóvenes artistas cordobeses, algunos de los cuales ya cuentan con una notable trayectoria...</descripcion>
+        <horario>12:00</horario>
+        <localizacion>https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25192.916821126062!2d-4.7748322!3d37.88100250000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d20825fcb26f3%3A0x1b11c6d00fbe1b0b!2sPlaza+del+Potro!5e0!3m2!1ses!2sus!4v1491128579177</localizacion>
+    </evento>
+</eventos>

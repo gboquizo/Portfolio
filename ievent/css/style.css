@@ -1,0 +1,178 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family:helvetica;
+}
+
+body{
+	background:#FAFAFA;
+	
+}
+.tarifa{
+	width: 100%;
+	text-align: right;
+	margin-bottom: 4%;
+	margin-top: 4%;
+}
+
+.infoImport{
+	margin-bottom: 10px;
+}
+
+.eventos{
+	margin-top: 1%;
+	margin-left: 5px;
+
+}
+.evento{
+	background: #ee6e73;
+	width: 300px;
+	float:left;
+	height: auto;
+	margin-left: 5px;
+	margin-bottom:5px;
+	padding:5px;
+	color:white;
+	border-radius: 3px;
+	height: auto;
+}
+.infoAdicional{
+	width: 100%;
+	word-wrap: break-word;
+	position: relative;
+}
+
+.infoImport{
+	width: 97%;
+	padding: 5px;
+	background: #CB565A;
+}
+
+.infoImport>a{
+	font-size:0.8em;
+	color:#FCC7CA;
+}
+
+.img>img{
+	width: 90%;
+	margin-left:5%;
+}
+.titulo{
+	margin-bottom: 1%;
+
+}
+
+.descripcion{
+	width: auto;
+	height: auto;
+	border-left: 2px solid white;
+	text-align:justify-all;
+	font-size: 0.9em;
+}
+
+.descripcion>p{
+	margin-left: 2%;
+
+}
+
+.tarifa>a{
+	font-size: 1.5em;
+	margin-right: 10px;
+	border: 2px solid white;
+	border-radius:5px; 
+	padding: 5px;
+}
+
+.horario{
+	margin-top: 4%;
+	margin-bottom: 2%;
+	background: #CB565A;
+	padding: 3px;
+	width: 98%;
+}
+.horario>span{
+	font-weight: bold;
+}
+.horario>a{
+	font-size: 0.8em;
+}
+p{
+	width: 300px;
+	font-size: 1em;
+	
+}
+.rss>a>img{
+	width: 13px;
+	height: auto;
+}
+.linkEvent:hover .evento{
+	box-shadow: 1px 1px 2px #888888;
+}
+
+@media (max-width: 1270px) {
+	.evento{
+	
+	height: auto;
+	margin-right: 0px;
+	}
+	.eventos{
+		margin-left: 10%;
+	}
+}
+
+@media (max-width: 1080px) {
+	.evento{
+	width: 40%;
+	height: auto;
+	margin-right: 0px;
+	}
+	.eventos{
+		margin-left: 10%;
+	}
+}
+
+@media (max-width: 750px) {
+	.evento{
+	width: 97%;
+	height: auto;
+	margin-left: 0px;
+	}
+	.eventos{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	iframe{
+		width: 100%;
+	}
+
+	*{
+		overflow-x: hidden;
+	}
+}
+
+.contenedor{
+	float: left;
+	width: 50%;
+	color: white;
+	padding-top: 2%;
+	padding-bottom:2%;
+}
+
+.footer{
+	float: left;
+	width: 100%;
+	background: #ee6e73;
+	margin-bottom: 0px;
+	margin-top: 5%;
+}
+
+.contenedor>p{
+	margin-left: 2%;
+	width: 90%;
+}
+
+.contenedor>img{
+	margin-left: 3%;
+	margin-top: 3%;
+	width: 100px;
+}

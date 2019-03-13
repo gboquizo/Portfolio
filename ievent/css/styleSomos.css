@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:helvetica;
+}
+
+body{
+    background:#FAFAFA;
+}
+
+/*--------------*/
+
+.autor{
+    background:#ee6e73;
+    width: 620px;
+    float: left;
+    height: 600px;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 3px;
+}
+.perfil{
+    border-radius:50%;
+    width: 200px;
+    margin-left: 35%;
+    margin-top: 80px;
+}
+
+.perfil:hover{
+    box-shadow: 0px 0px 5px #920017;
+}
+
+.titulacion{
+    margin-top: 30px;
+    color: white;
+    margin-left: 50px;
+    border-left: 2px solid white;
+    height: auto;
+}
+
+.titu{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    margin-left: 50px;
+    height: auto;
+} 
+.titu>li {
+    float: none;
+    margin-top: 10px;
+}
+
+.titu>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.network>a>img{
+    width: 40px;
+}
+.network>a:hover img{
+   box-shadow: 1px 1px 10px #920017;
+   border-radius: 50%;
+
+}
+.network{
+    margin-top: 3%;
+    margin-left: 40%;
+    width: auto;
+    height: auto;
+    padding: 1%;
+}
+
+@media (min-width: 914px) {
+    .autor{
+    width: 48.5%;
+    float: left;
+    height: 600px;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 3px;
+    }
+    
+    .perfil{
+    border-radius:50%;
+    width: 200px;
+    margin-left: 36%;
+    margin-top: 80px;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    
+}
+
+
+@media (max-width: 914px) {
+    .autor{
+    width: 100%;
+    float: left;
+    height: 600px;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 3px;
+    }
+    
+    .perfil{
+    border-radius:50%;
+    width: 200px;
+    margin-left: 36%;
+    margin-top: 80px;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .perfil{
+    border-radius:50%;
+    width: 200px;
+    margin-left: 20%;
+    margin-top: 80px;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    .autor{
+    width: 100%;
+    float: left;
+    height: 600px;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 3px;
+    }
+
+    .network{
+        margin-left: 30%;
+    }
+}
+
+
+
+
+

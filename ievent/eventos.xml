@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Ievent</title>
+        <link>http://ieventgs.esy.es</link>
+        <description>Nuestro RSS permitirá a nuestros visitantes acceder a contenidos de actualidad sobre los eventos culturales que cubrimos</description>
+        <item>
+            <title>XV Bienal de Fotografía de Córdoba</title>
+            <link>http://bienaldefotografia.cordoba.es/</link>
+            <description>Artes Plásticas - Exposiciones - Bienal de Fotografía de Córdoba</description>
+        </item>
+        <item>
+            <title>Córdoba Flamenca </title>
+            <link>http://www.cultura.cordoba.es/es/agenda/cordoba-flamenca-2</link>
+            <description>Córdoba flamenca es un homenaje a los cantes cordobeses que han contribuido a consolidar la grandeza artística del flamenco. Soleares, cantiñas y fandangos son el santo y seña de la tierra cordobesa y a esos cantes, con sus toques y bailes característicos, está dedicado este espectáculo.</description>
+        </item>
+        <item>
+            <title>Trasteando: Isaac Muñoz </title>
+            <link>http://www.centroflamencofosforito.cordoba.es/evento/trasteando-encuentros-con-la-guitarra-flamenca-isaac-munoz/?instance_id=12782</link>
+            <description>Trasteando es un ciclo de conciertos en los que la protagonista es la guitarra flamenca.</description>
+        </item> 
+        <item>
+            <title>Matinales Flamencas: Anabel Castillo</title>
+            <link>http://www.centroflamencofosforito.cordoba.es/evento/matinales-flamencas-anabel-castillo/?instance_id=12727</link>
+            <description>Un ciclo de actuaciones de flamenco en directo protagonizado por jóvenes artistas cordobeses, algunos de los cuales ya cuentan con una notable trayectoria artística a pesar de su juventud.</description>
+        </item>
+    </channel>
+</rss>
